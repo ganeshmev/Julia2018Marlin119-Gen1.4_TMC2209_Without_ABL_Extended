@@ -151,7 +151,7 @@
   //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 200,  200, 1007.874, 280 }  for 1/32 microstep ratio
   #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100,  100, 503.937, 140 }
 #else
-  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 100,  100, 503.937, 140 }//20 tooth pulley
+  #define DEFAULT_AXIS_STEPS_PER_UNIT   { 80,  80, 503.937, 140 }//20 tooth pulley
   //#define DEFAULT_AXIS_STEPS_PER_UNIT   { 160,  160, 1007.874, 280 } //was { 160,  160, 1007.874, 280 } for old printers
 #endif
 #if BV_PRO() || BV_PRO_ABL() || BV_PRO_ABL24()
